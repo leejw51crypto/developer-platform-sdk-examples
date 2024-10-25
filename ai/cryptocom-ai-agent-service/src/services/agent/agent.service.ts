@@ -31,7 +31,7 @@ import {
 Client.init({
   chain: CronosZkEvm.Testnet,
   apiKey: process.env.EXPLORER_API_KEY!,
-  provider: 'http://localhost:5173',
+  provider: 'http://localhost:5173', //magic link
 });
 
 /**
